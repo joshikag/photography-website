@@ -1,0 +1,127 @@
+body,
+html {
+    height: 100%;
+    /* overflow: auto; */
+}
+.header-container{
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+.header{
+	width: auto;
+	margin: auto;
+	margin-top: 24px;
+	overflow: auto;
+	text-align: center;
+	display: inline-flex;
+}
+
+.menu-container{
+	padding: 10px;
+	margin: auto;
+}
+.menu-container ul li{
+	list-style: none;
+	display: inline;
+}
+.menu-container ul li a{
+	text-decoration: none;
+	padding: 16px 18px;
+  color: white;
+	letter-spacing: 1px;
+	font-family: Bree Serif;
+}
+.menu-container ul li a:hover{
+	background:grey
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 48%;
+	transform: translateX(-50%);
+	text-align: center;
+	color: white;
+}
+.content h1{
+	line-height: 1px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 48px;
+}
+.content h3{
+    margin-top:30px;
+    font-family: 'Cookie', cursive;
+	font-size: 45px;
+    letter-spacing: 1px;
+    font-weight:lighter;
+}
+
+.content a:hover{
+	background:white
+}
+
+
+
+.part1 {
+    background-image: url('layer2.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.part2 {
+    background-image: url('layer1.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: -10px;
+    padding: 0px;
+}
+
+.part3 {
+    background-image: url('layer3.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.part4 {
+    background-image: url('layer4.png');
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button2:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.part5 {
+    background-attachment: fixed;
+}
+
+::placeholder 
+{ 
+    color:white;
+    opacity: 6; 
+  
+    
+  }
+  .vertical-center {
+  
+    display: flex;
+    align-items: center;
+  }
+  .h3a
+  {
+    font-family: 'Unna', serif;
+    font-size:25px;
+  }
